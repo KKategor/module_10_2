@@ -20,7 +20,7 @@ class Knight(Thread):
             enemy = enemy - self.power
             if count_days == 1:
                 y = 'день'
-            elif count_days == 2:
+            elif count_days in range(2, 5):
                 y = 'дня'
             else:
                 y = 'дней'
